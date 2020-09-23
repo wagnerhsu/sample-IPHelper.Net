@@ -7,3 +7,7 @@ _ReSharper.Samples
 
 # mstest test results
 TestResults
+packages/
+bin/
+obj/
+.vs/

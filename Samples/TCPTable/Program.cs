@@ -1,5 +1,6 @@
 ﻿using System;
 using IPHelper;
+using Newtonsoft.Json;
 
 namespace TCPTable
 {
@@ -14,6 +15,7 @@ namespace TCPTable
         private static void PrintData()
         {
             var returnData = Functions.GetExtendedTcpTable(true,Win32Funcs.TcpTableType.OwnerPidAll);
+            Console.WriteLine(JsonConvert.SerializeObject(returnData, Formatting.Indented));
 
             Console.WriteLine("+================================================================================+");
 

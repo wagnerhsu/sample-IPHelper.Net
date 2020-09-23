@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="IPHelper">
-      <HintPath>..\..\Binaries\Release\IPHelper.dll</HintPath>
+      <HintPath>..\..\Binaries\Release\net40\IPHelper.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
